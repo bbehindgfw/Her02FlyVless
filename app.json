@@ -1,0 +1,30 @@
+{
+  "name": "Her02FlyVless",
+  "description": "将vless部署在Her0ku上",
+  "keywords": [
+    "VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "8831e13f-7078-4350-b9cd-24591ed16e9b",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/bbehindgfw/Her02FlyVless",
+  "repository": "https://github.com/bbehindgfw/Her02FlyVless",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
